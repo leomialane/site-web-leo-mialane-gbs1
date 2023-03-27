@@ -46,6 +46,7 @@ html,body{
     background-image: url("../img/mario-kart-7-img-4.jpg");
 
 }
+
 .minecraft{
     background-image: url("../img/minecraft.jfif");
 
@@ -72,12 +73,13 @@ html,body{
 }
 
 .container-fluid{
-    position: absolute;  
+    position: fixed;  
+    z-index: 1;
     background-color: rgb(70, 70, 70);
     color:rgb(255, 255, 255);
     display: flex;
-    top: 50px;  
-    left:0;  
-    height: 25px;  
-    width: 100%;  
+    top: 0px;  
+    left:0px;  
+    height: 60px;  
+    width: 35%;  
 }
