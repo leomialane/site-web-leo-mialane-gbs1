@@ -1,11 +1,9 @@
 html,body{
     margin: 0;
     padding: 0;
+    background-color: black;
 }
 
-.rouge{
-    color: red;
-}
 
 .panels{
     display: flex;
@@ -31,28 +29,6 @@ html,body{
     flex:4
 }
 
-.panel>.titreJeu:hover{
-    opacity: 100%;
-}
-
-.lion{
-    background-image: url("../img/1.jpg");
-}
-
-.hands{
-    background-image: url("../img/2.jpg");
-  
-
-}
-.eye{
-    background-image: url("../img/3.jpg");
-
-}
-.road{
-    background-image: url("../img/4.jpg");
-
-}
-
 .titreJeu{
     color: white;
     font-size: 4em;
@@ -60,7 +36,10 @@ html,body{
     opacity: 0%;
     transition: opacity 1s;
 }
-
-.body{
-    background-color: black;
+.card{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(49, 49, 49);
+    justify-content: space-around;
+    color: rgb(255, 255, 255);
 }
